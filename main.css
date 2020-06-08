@@ -1,0 +1,43 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #af259d;
+    font-family: 'Calibri', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    flex: 0 0 80%;
+}
+
+#quoteBtn {
+    border: none;
+    color: white;
+    background-color: #af259d;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#quoteBtn:hover {
+    color: #e3f125;
+}
+
+blockquote {
+    background: white;
+    border-left: 10px solid #ee11d0;
+    margin: 20px;
+    padding: 10px;
+}
+
+#quoteAuthor {
+    color: #af259d;
+}
